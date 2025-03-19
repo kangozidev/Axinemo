@@ -1,0 +1,201 @@
+object frmKeyList: TfrmKeyList
+  Left = 357
+  Height = 654
+  Top = 250
+  Width = 749
+  BorderStyle = bsDialog
+  Caption = 'API Key Setting'
+  ClientHeight = 654
+  ClientWidth = 749
+  DesignTimePPI = 120
+  Font.Name = 'Bahnschrift'
+  Position = poMainFormCenter
+  object Panel1: TPanel
+    Left = 5
+    Height = 32
+    Top = 617
+    Width = 739
+    Align = alBottom
+    BorderSpacing.Around = 5
+    BevelOuter = bvNone
+    ClientHeight = 32
+    ClientWidth = 739
+    TabOrder = 0
+    object spDelKey: TSpeedButton
+      Left = 531
+      Height = 32
+      Top = 0
+      Width = 104
+      Align = alRight
+      Caption = 'Hapus Key'
+      Flat = True
+      OnClick = spDelKeyClick
+    end
+    object spAddKey: TSpeedButton
+      Left = 0
+      Height = 32
+      Top = 0
+      Width = 105
+      Align = alLeft
+      Caption = 'Tambah Key'
+      Flat = True
+      OnClick = spAddKeyClick
+    end
+    object dbKeyAPI: TDBEdit
+      Left = 105
+      Height = 32
+      Top = 0
+      Width = 426
+      DataField = 'gemini_key'
+      DataSource = frmAxMain.DSAPIKEY
+      Align = alClient
+      Alignment = taCenter
+      Font.Color = 8388863
+      Font.Name = 'Bahnschrift'
+      MaxLength = 0
+      ParentFont = False
+      TabOrder = 0
+    end
+    object spbSimpanKey: TSpeedButton
+      Left = 635
+      Height = 32
+      Top = 0
+      Width = 104
+      Align = alRight
+      Caption = 'Simpan'
+      Flat = True
+      OnClick = spbSimpanKeyClick
+    end
+  end
+  object RxDBGrid1: TRxDBGrid
+    Cursor = crHandPoint
+    Left = 5
+    Height = 354
+    Top = 5
+    Width = 739
+    ColumnDefValues.BlobText = '(blob)'
+    TitleButtons = False
+    AutoSort = True
+    Columns = <    
+      item
+        Title.Alignment = taCenter
+        Title.Orientation = toHorizontal
+        Title.Caption = 'Gemini Key'
+        Width = 720
+        FieldName = 'gemini_key'
+        EditButtons = <>
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.NotEmptyValue = '(Not empty)'
+        Filter.AllValue = '(All values)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        Footers = <>
+      end>
+    KeyStrokes = <    
+      item
+        Command = rxgcShowFindDlg
+        ShortCut = 16454
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowColumnsDlg
+        ShortCut = 16471
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowFilterDlg
+        ShortCut = 16468
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowSortDlg
+        ShortCut = 16467
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowQuickFilter
+        ShortCut = 16465
+        Enabled = True
+      end    
+      item
+        Command = rxgcHideQuickFilter
+        ShortCut = 16456
+        Enabled = True
+      end    
+      item
+        Command = rxgcSelectAll
+        ShortCut = 16449
+        Enabled = True
+      end    
+      item
+        Command = rxgcDeSelectAll
+        ShortCut = 16429
+        Enabled = True
+      end    
+      item
+        Command = rxgcInvertSelection
+        ShortCut = 16426
+        Enabled = True
+      end    
+      item
+        Command = rxgcOptimizeColumnsWidth
+        ShortCut = 16427
+        Enabled = True
+      end    
+      item
+        Command = rxgcCopyCellValue
+        ShortCut = 16451
+        Enabled = True
+      end>
+    FooterOptions.DrawFullLine = False
+    SearchOptions.QuickSearchOptions = [loCaseInsensitive, loPartialKey]
+    SearchOptions.FromStart = False
+    SelectedFont.CharSet = ANSI_CHARSET
+    SelectedFont.Color = clBlack
+    SelectedFont.Height = -20
+    SelectedFont.Name = 'Bahnschrift SemiBold'
+    SelectedFont.Pitch = fpVariable
+    SelectedFont.Quality = fqCleartypeNatural
+    SelectedFont.Style = [fsBold]
+    OptionsRx = [rdgAllowColumnsForm, rdgAllowDialogFind, rdgAllowQuickFilter]
+    Align = alTop
+    AutoFillColumns = True
+    BorderSpacing.Around = 5
+    Color = 15794170
+    DrawFullLine = False
+    FocusColor = clRed
+    SelectedColor = 11664569
+    DataSource = frmAxMain.DSAPIKEY
+    Font.Color = clBlack
+    Font.Height = -15
+    Font.Name = 'Bahnschrift SemiLight'
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    ParentFont = False
+    Scrollbars = ssNone
+    TabOrder = 1
+    OnDblClick = RxDBGrid1DblClick
+  end
+  object DBMemo1: TDBMemo
+    Left = 4
+    Height = 226
+    Top = 386
+    Width = 741
+    Align = alClient
+    BorderSpacing.Around = 4
+    DataField = 'prompt'
+    DataSource = frmAxMain.DSPrompt
+    ScrollBars = ssVertical
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 0
+    Height = 18
+    Top = 364
+    Width = 749
+    Align = alTop
+    Alignment = taCenter
+    Caption = 'Command / Prompt'
+    ParentColor = False
+  end
+end

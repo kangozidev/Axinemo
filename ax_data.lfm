@@ -1,0 +1,218 @@
+object frmGrid: TfrmGrid
+  Left = 459
+  Height = 674
+  Top = 250
+  Width = 1343
+  BorderStyle = bsDialog
+  Caption = 'Rekapitulasi Penyeelsaian'
+  ClientHeight = 674
+  ClientWidth = 1343
+  DesignTimePPI = 120
+  Font.Height = -20
+  Font.Name = 'Bahnschrift'
+  Position = poMainFormCenter
+  object RxDBGrid1: TRxDBGrid
+    Cursor = crHandPoint
+    Left = 3
+    Height = 668
+    Top = 3
+    Width = 1337
+    ColumnDefValues.BlobText = '(blob)'
+    TitleButtons = False
+    AutoSort = True
+    Columns = <    
+      item
+        Title.Alignment = taCenter
+        Title.Orientation = toHorizontal
+        Title.Caption = 'JUDUL'
+        Width = 185
+        FieldName = 'Judul'
+        EditButtons = <>
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.NotEmptyValue = '(Not empty)'
+        Filter.AllValue = '(All values)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        Footers = <>
+      end    
+      item
+        Alignment = taCenter
+        Title.Alignment = taCenter
+        Title.Orientation = toHorizontal
+        Title.Caption = 'TOTAL'
+        Width = 185
+        FieldName = 'Total'
+        EditButtons = <>
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.NotEmptyValue = '(Not empty)'
+        Filter.AllValue = '(All values)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        Footers = <>
+      end    
+      item
+        Alignment = taCenter
+        Title.Alignment = taCenter
+        Title.Orientation = toHorizontal
+        Title.Caption = 'SELESAI'
+        Width = 185
+        FieldName = 'SELESAI'
+        EditButtons = <>
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.NotEmptyValue = '(Not empty)'
+        Filter.AllValue = '(All values)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        Footers = <>
+      end    
+      item
+        Alignment = taCenter
+        Title.Alignment = taCenter
+        Title.Orientation = toHorizontal
+        Title.Caption = 'PROSES'
+        Width = 185
+        FieldName = 'Selesai'
+        EditButtons = <>
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.NotEmptyValue = '(Not empty)'
+        Filter.AllValue = '(All values)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        Footers = <>
+      end    
+      item
+        Alignment = taCenter
+        Font.Color = 2829311
+        Font.Height = -18
+        Font.Name = 'Bahnschrift'
+        Title.Alignment = taCenter
+        Title.Orientation = toHorizontal
+        Title.Caption = 'ERROR'
+        Width = 185
+        FieldName = 'Error'
+        EditButtons = <>
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.NotEmptyValue = '(Not empty)'
+        Filter.AllValue = '(All values)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        Footers = <>
+      end    
+      item
+        Alignment = taCenter
+        Title.Alignment = taCenter
+        Title.Orientation = toHorizontal
+        Title.Caption = 'KURANG'
+        Width = 185
+        FieldName = 'Kurang'
+        EditButtons = <>
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.NotEmptyValue = '(Not empty)'
+        Filter.AllValue = '(All values)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        Footers = <>
+      end    
+      item
+        Alignment = taCenter
+        Title.Alignment = taCenter
+        Title.Orientation = toHorizontal
+        Title.Caption = '%'
+        Width = 187
+        FieldName = 'PERSEN'
+        EditButtons = <>
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.NotEmptyValue = '(Not empty)'
+        Filter.AllValue = '(All values)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        Footers = <>
+      end>
+    KeyStrokes = <    
+      item
+        Command = rxgcShowFindDlg
+        ShortCut = 16454
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowColumnsDlg
+        ShortCut = 16471
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowFilterDlg
+        ShortCut = 16468
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowSortDlg
+        ShortCut = 16467
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowQuickFilter
+        ShortCut = 16465
+        Enabled = True
+      end    
+      item
+        Command = rxgcHideQuickFilter
+        ShortCut = 16456
+        Enabled = True
+      end    
+      item
+        Command = rxgcSelectAll
+        ShortCut = 16449
+        Enabled = True
+      end    
+      item
+        Command = rxgcDeSelectAll
+        ShortCut = 16429
+        Enabled = True
+      end    
+      item
+        Command = rxgcInvertSelection
+        ShortCut = 16426
+        Enabled = True
+      end    
+      item
+        Command = rxgcOptimizeColumnsWidth
+        ShortCut = 16427
+        Enabled = True
+      end    
+      item
+        Command = rxgcCopyCellValue
+        ShortCut = 16451
+        Enabled = True
+      end>
+    FooterOptions.DrawFullLine = False
+    SearchOptions.QuickSearchOptions = [loCaseInsensitive, loPartialKey]
+    SearchOptions.FromStart = False
+    SelectedFont.Color = clBlack
+    SelectedFont.Height = -20
+    SelectedFont.Name = 'Bahnschrift'
+    OptionsRx = [rdgAllowColumnsForm, rdgAllowDialogFind, rdgAllowQuickFilter]
+    Align = alClient
+    AlternateColor = 15269631
+    AutoFillColumns = True
+    BorderSpacing.Around = 3
+    Color = 15596276
+    DrawFullLine = False
+    FocusColor = clRed
+    SelectedColor = 11200705
+    DataSource = frmAxMain.DSGridRekap
+    Font.Height = -18
+    Font.Name = 'Bahnschrift'
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit, dgDisplayMemoText]
+    ParentFont = False
+    TabOrder = 0
+    OnDblClick = RxDBGrid1DblClick
+    OnTitleClick = RxDBGrid1TitleClick
+  end
+end

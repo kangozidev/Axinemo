@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="axinemo.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="22"/>
+        <CursorPos X="30" Y="48"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ax_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmAxMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="705"/>
+        <CursorPos X="62" Y="720"/>
+        <ComponentState Value="2"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ubrowser.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmBrowser"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="211"/>
+        <CursorPos X="3" Y="228"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uabout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmTentang"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="44"/>
+        <CursorPos X="3" Y="51"/>
+        <UsageCount Value="207"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ui_progres.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmAxProgress"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="126"/>
+        <CursorPos X="88" Y="146"/>
+        <UsageCount Value="206"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ax_keylist.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmKeyList"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="76"/>
+        <CursorPos Y="84"/>
+        <UsageCount Value="170"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ulo_splash.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmSplash"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="31"/>
+        <UsageCount Value="142"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ax_data.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmGrid"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="14"/>
+        <CursorPos X="27" Y="42"/>
+        <UsageCount Value="97"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\IDE\LazarusWin32\config_lazarus\onlinepackagemanager\packages\ATSynedit\atsynedit\atsynedit.pas"/>
+        <UnitName Value="ATSynEdit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="7969"/>
+        <CursorPos X="5" Y="7985"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\IDE\LazarusWin32\lazarus\lcl\lclintf.pas"/>
+        <UnitName Value="LCLIntf"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="22" Y="83"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="ax_keylist.pas"/>
+        <Caret Line="59" Column="80" TopLine="42"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="1463" Column="23" TopLine="1463"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_keylist.pas"/>
+        <Caret Line="60" Column="80" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="1603" Column="16" TopLine="1301"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="1096" Column="53" TopLine="1082"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="1103" Column="22" TopLine="1088"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="557" Column="31" TopLine="535"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="1144" Column="3" TopLine="1137"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="1258" Column="30" TopLine="1244"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="1242" Column="50" TopLine="1215"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="1237" Column="28" TopLine="1228"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="1214" TopLine="1205"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="1246" Column="31" TopLine="1231"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="1211" Column="21" TopLine="1203"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="1253" Column="76" TopLine="1238"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="1293" Column="35" TopLine="1264"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="1299" Column="7" TopLine="1286"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="1276" Column="24" TopLine="1247"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="1251" Column="26" TopLine="1222"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="1258" Column="26" TopLine="1229"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="243" Column="28" TopLine="237"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="718" Column="3" TopLine="698"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="1226" Column="44" TopLine="1199"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="1297" Column="74" TopLine="1268"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="1496" Column="111" TopLine="1489"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="539" Column="54" TopLine="531"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="719" Column="15" TopLine="1243"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="305" Column="21" TopLine="302"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="720" Column="63" TopLine="711"/>
+      </Position>
+      <Position>
+        <Filename Value="ax_main.pas"/>
+        <Caret Line="466" Column="3" TopLine="462"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
